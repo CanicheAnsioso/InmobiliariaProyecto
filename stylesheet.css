@@ -1,0 +1,278 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 90px;
+  align-items: center;
+  background-color: none;
+}
+
+.logo {
+  position: absolute;
+  width: 204px;
+  height: 33px;
+  left: 71px;
+  top: 24px;
+}
+
+.Texto-Logo {
+  font-family: "Ropa Sans", sans-serif;
+  color: #6a578d;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: 0.115em;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  padding-right: 5%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 110.7%;
+  letter-spacing: 0.035em;
+  color: #6a578d;
+  text-decoration: none;
+}
+
+.HERO {
+  width: 100%;
+  height: 1085.9px;
+}
+
+.HEROIMG {
+  background-image: url(Imagenes/Hero.svg);
+  background-position: center right;
+  background-size: 1646px 1085.9px;
+  background-repeat: no-repeat;
+}
+
+.Hero-Text {
+  position: absolute;
+  width: 473px;
+  height: 428px;
+  left: 64px;
+  top: 277px;
+  font-family: "Poppins", sans-serif;
+  color: #6a578d;
+  font-style: normal;
+}
+
+.Main-Text {
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 110.7%;
+  letter-spacing: 0.11em;
+}
+
+.Sub-Text {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 110.7%;
+  text-align: center;
+  letter-spacing: -0.07em;
+}
+
+.INTERLUDIO {
+  font-family: "Poppins", sans-serif;
+  color: #b7a0e1;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.FondoInt {
+  height: 109px;
+  left: 0px;
+  top: 1030px;
+  background: #4f4b4b;
+}
+
+.Telefonos {
+  position: absolute;
+  left: 20px;
+  top: 1220px;
+  font-size: 27px;
+  line-height: 114.2%;
+}
+
+.Redes {
+  position: absolute;
+  left: 1412px;
+  top: 1220px;
+  font-size: 27px;
+  line-height: 114.2%;
+}
+
+.RedesSvg {
+  position: absolute;
+  width: 170px;
+  height: 40px;
+  left: 1600px;
+  top: 1215px;
+}
+
+.filadecasas div {
+  padding: 0;
+  margin: 0;
+}
+
+.casas {
+  width: 100%;
+  height: 951px;
+}
+
+.INTERLUDIO2 {
+  font-family: "Poppins", sans-serif;
+  color: #b7a0e1;
+  font-style: normal;
+  font-weight: 600;
+}
+.FondoInt2 {
+  height: 108px;
+  left: 0px;
+  top: 2946px;
+  background: #4f4b4b;
+}
+
+.Telefonos2 {
+  position: absolute;
+  left: 71px;
+  top: 3232px;
+  font-size: 27px;
+  line-height: 114.2%;
+}
+
+.Redes2 {
+  position: absolute;
+  left: 1412px;
+  top: 3231px;
+  font-size: 27px;
+  line-height: 114.2%;
+}
+
+.RedesSvg2 {
+  position: absolute;
+  width: 170px;
+  height: 40px;
+  left: 1600px;
+  top: 3225px;
+}
+
+.casona {
+  width: 100%;
+  height: 1497px;
+}
+
+Footer {
+  width: 100%;
+  height: 224px;
+  background: #4f4b4b;
+  font-family: "Poppins", sans-serif;
+}
+
+.LogoInmobiliaria {
+  color: #b7a0e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 45px;
+  padding-top: 25px;
+  top: 4908px;
+  font-family: "Ropa Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 110.7%;
+  letter-spacing: 0.115em;
+}
+
+.DatosdeContacto {
+  color: #b7a0e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  top: 4950px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 45px;
+  letter-spacing: 0.8px;
+}
+
+.Disclaimer {
+  color: #f1eafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  top: 4897px;
+  padding-left: 45px;
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 12px;
+  letter-spacing: 0.115em;
+}
+
+.Medio {
+  left: 913px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.21em;
+  color: #f1eafe;
+  align-items: center;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Medio-links li a {
+  text-decoration: none;
+}
+
+.Follow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  color: #b7a0e1;
+  padding-top: 35px;
+  padding-right: 250px;
+  
+ }
+
+.RedesSociales {
+    position: absolute;
+  width: 170px;
+  height: 40px;
+  left: 1700px;
+  top: 5820px;
+}
