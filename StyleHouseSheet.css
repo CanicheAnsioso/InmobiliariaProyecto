@@ -19,6 +19,11 @@ nav {
 	height: 33px;
 }
 
+.logo-decoration {
+	text-decoration: none;
+}
+
+
 .Texto-Logo {
 	font-family: 'Ropa Sans';
 	color: #6a578d;
@@ -27,6 +32,7 @@ nav {
 	font-size: 30px;
 	line-height: 33px;
 	letter-spacing: 0.115em;
+	text-decoration: none;
 }
 
 .nav-links {
@@ -57,6 +63,7 @@ nav {
 	font-size: 36px;
 	line-height: 41px;
 	color: #6a578d;
+	padding-top: 15px;
 }
 
 .especification-for-house {
@@ -67,6 +74,7 @@ nav {
 	text-align: center;
 	color: #7d66a6;
 	display: inline;
+	padding-top: 5px;
 }
 
 .price-for-house {
@@ -76,6 +84,7 @@ nav {
 	line-height: 46px;
 	text-align: center;
 	color: #e73f9a;
+	padding-top: 10px;
 }
 
 .hero-image {
@@ -192,7 +201,7 @@ nav {
 	line-height: 40px;
 	color: #7d66a6;
 	text-align: center;
-	padding-top: 37px;
+	padding-top: 67px;
 }
 
 .contact-form{
@@ -225,11 +234,28 @@ nav {
   height: 35px;
 }
 
-/* Footer {
+.data-for-contact{
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 43px;
+text-align: center;
+letter-spacing: 0.1em;
+color: #B7A0E1;
+
+}
+
+.light-color{
+	color: #DAC6FD;
+	display: inline;
+}
+
+Footer {
   width: 100%;
   height: 224px;
   background: #4f4b4b;
   font-family: "Poppins", sans-serif;
+  
 }
 
 .LogoInmobiliaria {
@@ -327,4 +353,4 @@ nav {
   letter-spacing: 0.115em;
 
   color: #f1eafe;
-} */
+}

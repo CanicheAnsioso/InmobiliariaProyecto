@@ -1,236 +1,403 @@
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: fit-content;
 }
 
 nav {
-	display: flex;
-	justify-content: space-between;
-	min-height: 90px;
-	align-items: center;
-	background-color: none;
-	padding-left: 71px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 90px;
+  align-items: center;
+  background-color: none;
+  padding-left: 71px;
 }
 
 .logo {
-	width: 204px;
-	height: 33px;
+  width: 204px;
+  height: 33px;
+}
+
+.logo-decoration {
+  text-decoration: none;
 }
 
 .Texto-Logo {
-	font-family: 'Ropa Sans', sans-serif;
-	color: #6a578d;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 30px;
-	line-height: 33px;
-	letter-spacing: 0.115em;
+  font-family: "Ropa Sans", sans-serif;
+  color: #6a578d;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: 0.115em;
+  text-decoration: none;
 }
 
 .nav-links {
-	display: flex;
-	justify-content: space-around;
-	width: 50%;
-	padding-right: 5%;
-	margin: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  padding-right: 5%;
+  margin: 0;
 }
 
 .nav-links li {
-	list-style: none;
+  list-style: none;
 }
 
 .nav-links li a {
-	font-family: 'Poppins', sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 22px;
-	line-height: 110.7%;
-	letter-spacing: 0.035em;
-	color: #6a578d;
-	text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 110.7%;
+  letter-spacing: 0.035em;
+  color: #6a578d;
+  text-decoration: none;
 }
 
 .HERO {
-	width: 100%;
-	height: 1085.9px;
+  width: 100%;
+  height: 1085.9px;
 }
 
 .HEROIMG {
-	background-image: url(Imagenes/Hero.svg);
-	background-position: center right;
-	background-size: 1646px 1085.9px;
-	background-repeat: no-repeat;
+  background-image: url(Imagenes/Hero.svg);
+  background-position: center right;
+  background-size: 1646px 1085.9px;
+  background-repeat: no-repeat;
 }
 
 .Hero-Text {
-	width: 573px;
-	height: 428px;
-	padding-top: 270px;
-	padding-left: 50px;
-	font-family: 'Poppins', sans-serif;
-	color: #6a578d;
-	font-style: normal;
+  width: 573px;
+  height: 428px;
+  padding-top: 270px;
+  padding-left: 50px;
+  font-family: "Poppins", sans-serif;
+  color: #6a578d;
+  font-style: normal;
 }
 
 .Main-Text {
-	font-weight: 600;
-	font-size: 65px;
-	line-height: 110.7%;
-	letter-spacing: 0.11em;
-}
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 110.7%;
+  letter-spacing: 0.11em;
+  }
+
+  .this-word {
+    color: #d6bfff;
+  }
 
 .Sub-Text {
-	font-weight: normal;
-	font-size: 22px;
-	line-height: 110.7%;
-	text-align: center;
-	letter-spacing: -0.07em;
-	margin-top: 30px;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 110.7%;
+  text-align: center;
+  letter-spacing: -0.07em;
+  margin-top: 30px;
 }
 
 .INTERLUDIO {
-	font-family: 'Poppins', sans-serif;
-	color: #b7a0e1;
-	font-style: normal;
-	font-weight: 600;
-	height: 109px;
-	background: #4f4b4b;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #b7a0e1;
+  font-style: normal;
+  font-weight: 600;
+  height: 109px;
+  background: #4f4b4b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .Telefonos {
-	font-size: 27px;
-	line-height: 114.2%;
+  font-size: 27px;
+  line-height: 114.2%;
 }
 
 .Redes {
-	font-size: 27px;
-	line-height: 114.2%;
+  font-size: 27px;
+  line-height: 114.2%;
 }
 
 .RedesSvg {
-	margin-left: 15px;
-	width: 170px;
-	height: 40px;
+  margin-left: 15px;
+  width: 170px;
+  height: 40px;
 }
 
 .filadecasas div {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .casas {
-	width: 100%;
-	height: 951px;
+  width: 100%;
+  height: 951px;
 }
 
 .casona {
-	width: 100%;
-	height: 1497px;
+  width: 100%;
+  height: 1497px;
 }
 
 Footer {
-	width: 100%;
-	height: 224px;
-	background: #4f4b4b;
-	font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 224px;
+  background: #4f4b4b;
+  font-family: "Poppins", sans-serif;
 }
 
 .LogoInmobiliaria {
-	color: #b7a0e1;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	padding-left: 45px;
-	padding-top: 25px;
-	top: 4908px;
-	font-family: 'Ropa Sans', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 35px;
-	line-height: 110.7%;
-	letter-spacing: 0.115em;
+  color: #b7a0e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 45px;
+  padding-top: 25px;
+  top: 4908px;
+  font-family: "Ropa Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 110.7%;
+  letter-spacing: 0.115em;
 }
 
 .DatosdeContacto {
-	color: #b7a0e1;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	top: 4950px;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 12px;
-	line-height: 20px;
-	padding-left: 45px;
-	letter-spacing: 0.8px;
+  color: #b7a0e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  top: 4950px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  padding-left: 45px;
+  letter-spacing: 0.8px;
 }
 
 .Disclaimer {
-	color: #f1eafe;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	top: 4897px;
-	padding-left: 45px;
-	padding-top: 20px;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 7px;
-	line-height: 12px;
-	letter-spacing: 0.115em;
+  color: #f1eafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  top: 4897px;
+  padding-left: 45px;
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 12px;
+  letter-spacing: 0.115em;
 }
 
 .Medio {
-	font-family: 'Poppins', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 17px;
-	line-height: 23px;
-	letter-spacing: 0.21em;
-	color: #f1eafe;
-	padding-top: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.21em;
+  color: #f1eafe;
+  padding-top: 24px;
 }
 
 .Medio-links li a {
-	color: #b7a0e1;
+  color: #b7a0e1;
 }
 
 .Follow {
-	font-family: 'Poppins', sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 24px;
-	line-height: 27px;
-	color: #b7a0e1;
-	padding-top: 55px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  color: #b7a0e1;
+  padding-top: 55px;
 }
 
 .RedesSociales {
-	margin-left: 15px;
-	width: 140px;
-	height: 30px;
+  margin-left: 15px;
+  width: 140px;
+  height: 30px;
 }
 
 .LineaDivisoria {
-	margin-left: 30px;
-	margin-right: 30px;
-	border: 1px solid #f1eafe;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid #f1eafe;
 }
 
 .Copyright {
-	margin-left: 45px;
-	font-family: 'Ropa Sans';
-	font-style: normal;
-	font-weight: normal;
-	font-size: 7px;
-	line-height: 110.7%;
+  margin-left: 45px;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 110.7%;
 
-	letter-spacing: 0.115em;
+  letter-spacing: 0.115em;
 
-	color: #f1eafe;
+  color: #f1eafe;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  nav {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo {
+    width: 118px;
+    height: 20px;
+  }
+  .Texto-Logo {
+    font-size: 22px;
+    padding-right: 4px;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1em;
+  }
+  .nav-links li a {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    padding-left: 2.5px;
+  }
+  .HERO {
+    width: 100%;
+    height: 793px;
+  }
+  .HEROIMG {
+    background-position: center;
+    background-size: 1646px 793px;
+    background-image: url(Imagenes/Herophone.svg);
+  }
+
+  .Hero-Text {
+    width: 400px;
+    height: 468px;
+    padding-left: 45px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  .Main-Text {
+    font-size: 32px;
+    line-height: 110.7%;
+    letter-spacing: 0.11em;
+    text-align: center;
+    width: fit-content;
+    color: #451d8d;
+  }
+
+  .this-word {
+    color: #683db4;
+  }
+
+  .Sub-Text {
+    font-size: 22px;
+    line-height: 110.7%;
+    text-align: center;
+    letter-spacing: -0.07em;
+    color: #ffffff;
+    padding-top: 45px;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.64);
+  }
+
+  .INTERLUDIO {
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .Telefonos {
+    width: 99.8%;
+    font-size: 15px;
+    line-height: 114.2%;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+
+  .Redes {
+    width: 100%;
+    font-size: 15px;
+    line-height: 114.2%;
+    text-align: center;
+  }
+
+  .RedesSvg {
+    width: 118px;
+    height: 27px;
+  }
+
+  Footer {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .LogoInmobiliaria {
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  .DatosdeContacto {
+    font-size: 13px;
+    line-height: 114.2%;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  .Follow {
+    font-size: 17px;
+    line-height: 114.2%;
+    padding-left: 5px;
+    text-align: center;
+  }
+
+  .Disclaimer {
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 10px;
+    line-height: 110.7%;
+  }
+
+  .Medio {
+    font-size: 14px;
+    line-height: 135.5%;
+    padding-top: 14px;
+    letter-spacing: 0.3em;
+  }
+
+  .LineaDivisoria {
+    width: 90%;
+  }
+
+  .Copyright {
+    margin-left: 5px;
+    font-size: 7px;
+    line-height: 110.7%;
+    letter-spacing: 0.115em;
+    padding-bottom: 5px;
+    text-align: center;
+  }
 }
