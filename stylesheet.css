@@ -266,7 +266,7 @@ Footer {
   }
   .Texto-Logo {
     font-size: 22px;
-    padding-right: 4px;
+    text-align: center;
   }
   .nav-links {
     display: flex;
@@ -279,7 +279,7 @@ Footer {
     margin-right: 2.5px;
     font-size: 13px;
     letter-spacing: 0.05em;
-    padding-left: 2.5px;
+    text-align: center;
   }
   .HERO {
     width: 100%;
@@ -379,6 +379,7 @@ Footer {
     padding-top: 10px;
     font-size: 10px;
     line-height: 110.7%;
+	padding-left: 2.5px;
   }
 
   .Medio {
