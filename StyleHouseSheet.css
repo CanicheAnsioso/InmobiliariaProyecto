@@ -355,6 +355,201 @@ Footer {
 
   color: #f1eafe;
 }
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  nav {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo {
+    width: 169px;
+    height: 20px;
+  }
+  .Texto-Logo {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1.2em;
+  }
+  .nav-links li a {
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .tittle-for-house {
+    font-size: 22px;
+    line-height: 114.2%;
+    text-align: center;
+  }
+
+  .especification-for-house {
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 114.2%;
+    text-align: center;
+  }
+
+  .price-for-house {
+    font-size: 25px;
+    line-height: 114.2%;
+    margin-left: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .hero-image {
+    width: 90%;
+    height: 445px;
+    margin-left: 5px;
+    align-items: center;
+    align-content: center;
+  }
+  .carrousel-images {
+    width: 70%;
+    height: 119px;
+    margin-right: 15px;
+    align-items: center;
+  }
+
+  .basic-info {
+    margin-top: 49px;
+    font-size: 18px;
+    line-height: 114.2%;
+  }
+
+  .data {
+    padding-top: 59px;
+    font-size: 16px;
+    line-height: 120.2%;
+    letter-spacing: 0.03em;
+  }
+
+  .sup-and-med {
+    font-size: 16px;
+    line-height: 114.2%;
+  }
+
+  .sup-numbers {
+    line-height: 120.2%;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 114.2%;
+  }
+
+  .descrip-text {
+    font-size: 16px;
+    line-height: 120.2%;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  .serv-and-ad {
+    font-size: 18px;
+    line-height: 114.2%;
+  }
+
+  .alocation {
+    padding-top: 100px;
+  }
+
+  .location {
+    font-size: 18px;
+    line-height: 114.2%;
+  }
+
+  .map {
+    width: 90%;
+    height: 493px;
+    padding-left: 10;
+  }
+
+  .tittle-contact {
+    font-size: 18px;
+    line-height: 114.2%;
+  }
+
+  .contact-form {
+    width: 50%;
+    padding-top: 20px;
+  }
+
+  .data-for-contact {
+    font-size: 16px;
+    line-height: 160.7%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding-bottom: 25px;
+  }
+
+ Footer {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .LogoInmobiliaria {
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  .DatosdeContacto {
+    font-size: 7px;
+    line-height: 114.2%;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  .Follow {
+    font-size: 9px;
+    line-height: 114.2%;
+    padding-left: 5px;
+    text-align: center;
+  }
+
+  .Disclaimer {
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 10px;
+    line-height: 110.7%;
+    padding-left: 2.5px;
+  }
+
+  .Medio {
+    font-size: 11px;
+    line-height: 98.5%;
+    padding-top: 14px;
+    letter-spacing: 0.2em;
+  }
+
+  .LineaDivisoria {
+    width: 90%;
+  }
+
+  .Copyright {
+    margin-left: 5px;
+    font-size: 7px;
+    line-height: 110.7%;
+    letter-spacing: 0.115em;
+    padding-bottom: 5px;
+    text-align: center;
+  } 
+}
+
 
 @media only screen and (max-width: 768px) {
   body {
@@ -393,29 +588,35 @@ Footer {
   .tittle-for-house {
     font-size: 16px;
     line-height: 114.2%;
+    text-align: center;
   }
 
   .especification-for-house {
-    font-size: 12px;
+    padding-top: 20px;
+    font-size: 11px;
     line-height: 114.2%;
+    text-align: center;
   }
 
   .price-for-house {
     font-size: 20px;
     line-height: 114.2%;
+    margin-left: 15px;
     text-align: center;
     padding-bottom: 20px;
   }
 
   .hero-image {
-    width: 368px;
+    width: 90%;
     height: 296px;
-    padding-left: 15px;
+    margin-left: 5px;
+    align-items: center;
   }
   .carrousel-images {
-    width: 91.75px;
+    width: 70%;
     height: 80px;
-    margin-left: 3px;
+    margin-right: 15px;
+    align-items: center;
   }
 
   .basic-info {
@@ -469,7 +670,7 @@ Footer {
   }
 
   .map {
-    width: 400px;
+    width: 90%;
     height: 260px;
     padding-left: 25px;
   }
