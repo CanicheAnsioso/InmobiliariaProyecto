@@ -10,11 +10,6 @@ body {
   width: 100%;
 }
 
-body {
-  min-width: fit-content;
-  max-width: 100%;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -98,7 +93,7 @@ nav {
 
 .hero-image {
   width: 100%;
-  height: 648px;
+  height: 90%;
 }
 
 .carrousel-images {
@@ -184,7 +179,7 @@ nav {
 }
 
 .alocation {
-  padding-top: 50px;
+  padding-top: 15%;
 }
 
 .location {
@@ -364,7 +359,6 @@ Footer {
   body {
     width: 100vw;
     height: 100vh;
-    
   }
   nav {
     width: 100%;
@@ -416,12 +410,13 @@ Footer {
 
   .hero-image {
     width: 90%;
-    height: 445px;
+    height: 90%;
     margin-left: 5px;
     align-items: center;
     align-content: center;
     padding: 0%;
     margin-left: 42px;
+    position: relative;
   }
   .carrousel-images {
     width: auto;
@@ -429,7 +424,7 @@ Footer {
   }
 
   .basic-info {
-    margin-top: 49px;
+    margin-top: 90px;
     font-size: 18px;
     line-height: 114.2%;
   }
@@ -613,7 +608,7 @@ Footer {
 
   .hero-image {
     width: 90%;
-    height: 296px;
+    height: 90%;
     margin-left: 22px;
   }
   .carrousel-images {
@@ -622,7 +617,7 @@ Footer {
   }
 
   .basic-info {
-    margin-top: 15px;
+    margin-top: 15%;
     font-size: 14px;
     line-height: 114.2%;
   }
