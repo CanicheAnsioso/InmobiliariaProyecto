@@ -12,11 +12,16 @@
     />
     <link href="bootstrap-5.0.2-dist/css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Required Core stylesheet -->
+    <link rel="stylesheet" href="glide-3.4.1/dist/css/glide.core.min.css" />
+
+    <!-- Optional Theme stylesheet -->
+    <link rel="stylesheet" href="glide-3.4.1/dist/css/glide.theme.min.css" />
     <title>HOUSE</title>
   </head>
 
   <body>
-    <nav class= "animate__animated animate__fadeInDown animate__slow">
+    <nav class="animate__animated animate__fadeInDown animate__slow">
       <div class="logo">
         <a class="logo-decoration" href="index.html"><h3 class="text-logo">INMOBILIARIA</h3></a>
       </div>
@@ -28,7 +33,7 @@
       </ul>
     </nav>
 
-    <main class= "animate__animated animate__fadeIn animate__slow">
+    <main class="animate__animated animate__fadeIn animate__slow">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-xl-7 tittle-for-house">
@@ -43,88 +48,90 @@
 
         <div class="row">
           <div class="col-12 ps-0 col-xl-7 p-0 ps-3">
-            <img id='fullImage' class="hero-image" src="Imagenes/Casa11.jpeg" />
-            <div
-              class="carrousel"
-              style="
-                display: flex;
-                flex-direction: row;
-                margin: 0;
-                justify-content: center;
-                align-content: center;
-              "
-            >
-              <img onclick="onClickImage(this)" class="carrousel-images" src="Imagenes/Interior1.jpg" />
-              <img onclick="onClickImage(this)" class="carrousel-images" src="Imagenes/Interior3.jpg" />
-              <img onclick="onClickImage(this)" class="carrousel-images" src="Imagenes/Interior2.jpg" />
-              <img onclick="onClickImage(this)" class="carrousel-images" src="Imagenes/Interior4.jpeg" />
+            <img id="fullImage" class="hero-image" src="Imagenes/Casa11.jpeg" />
+            <div class="glide" style="margin-top: 10px;">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide"><img onclick="onClickImage(this)" style="height: 160px; width: 100%;" src="Imagenes/Casa11.jpeg" /></li>
+                  <li class="glide__slide"><img onclick="onClickImage(this)" style="height: 160px; width: 100%;" src="Imagenes/Interior1.jpg" /></li>
+                  <li class="glide__slide"><img onclick="onClickImage(this)" style="height: 160px; width: 100%;" src="Imagenes/Interior2.jpg" /></li>
+                  <li class="glide__slide"><img onclick="onClickImage(this)" style="height: 160px; width: 100%;" src="Imagenes/Interior3.jpg" /></li>
+                  <li class="glide__slide"><img onclick="onClickImage(this)" style="height: 160px; width: 100%;" src="Imagenes/Interior4.jpeg" /></li>
+                </ul>
+              </div>
+              <div class="glide__arrows" data-glide-el="controls">
+                <button style="border: 0!important;" class="glide__arrow glide__arrow--left" data-glide-dir="<"><img src="Imagenes/arrow-left.svg" height="50px" width="50px"/></button>
+                <button style="border: 0!important;" class="glide__arrow glide__arrow--right" data-glide-dir=">"><img src="Imagenes/arrow-right.svg" height="50px" width="50px"/></button>
+              </div>
             </div>
           </div>
-
-          <div class="col 12 col-xl-5 p-0 info">
-            <div class="basic-info">Información Básica</div>
-            <div class="row especific-data">
-              <div class="col-6">
-                <div class="data">
-                  Ambientes: 6<br />
-                  Dormitorios: 5 <br />
-                  Baños: 4 <br />
-                  Cocheras: 3 <br />
-                  Zonificación: Residencial
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="data">
-                  Condición: Excelente<br />
-                  Antigüedad: 2 Años <br />
-                  Situación: Vacía <br />
-                  Expensas: -
-                </div>
-              </div>
+          
+      <div class="col 12 col-xl-5 p-0 info">
+        <div class="basic-info">Información Básica</div>
+        <div class="row especific-data">
+          <div class="col-6">
+            <div class="data">
+              Ambientes: 6<br />
+              Dormitorios: 5 <br />
+              Baños: 4 <br />
+              Cocheras: 3 <br />
+              Zonificación: Residencial
             </div>
-
-            <div class="row">
-              <div class="sup-and-med">Superficies y Medidas</div>
-              <div class="sup-numbers">Terreno: 1347 m² | Cubierta: 460 m² | Superficie Total: 1347 m²</div>
+          </div>
+          <div class="col-6">
+            <div class="data">
+              Condición: Excelente<br />
+              Antigüedad: 2 Años <br />
+              Situación: Vacía <br />
+              Expensas: -
             </div>
+          </div>
+        </div>
 
-            <div class="row">
-              <div class="description">Descripción</div>
-              <div class="descrip-text">
-                Cat ipsum dolor sit amet, bite nose of your human. So you're just gonna scroll by without
-                saying meowdy? Mesmerizing birds demand to be let outside at once, and expect owner to wait
-                for me as i think about it munch, munch, chomp, chomp don't nosh on the birds yet commence
-                midnight zoomies. Run as fast as i can into another room for no reason wake up human for food
-                at 4am. do not try to mix old food with new one to fool me!
-              </div>
+        <div class="row">
+          <div class="sup-and-med">Superficies y Medidas</div>
+          <div class="sup-numbers">Terreno: 1347 m² | Cubierta: 460 m² | Superficie Total: 1347 m²</div>
+        </div>
+
+        <div class="row">
+          <div class="description">Descripción</div>
+          <div class="descrip-text">
+            Cat ipsum dolor sit amet, bite nose of your human. So you're just gonna scroll by without saying
+            meowdy? Mesmerizing birds demand to be let outside at once, and expect owner to wait for me as i
+            think about it munch, munch, chomp, chomp don't nosh on the birds yet commence midnight zoomies.
+            Run as fast as i can into another room for no reason wake up human for food at 4am. do not try to
+            mix old food with new one to fool me!
+          </div>
+        </div>
+
+        <div class="row service-and-ads">
+          <div class="serv-and-ad">Servicios y Adicionales</div>
+          <div class="col-6">
+            <div class="data">
+              • Agua<br />
+              • Corriente<br />
+              • Internet<br />
+              • Electricidad<br />
+              • Teléfono<br />
+              • Cable
             </div>
-
-            <div class="row service-and-ads">
-              <div class="serv-and-ad">Servicios y Adicionales</div>
-              <div class="col-6">
-                <div class="data">
-                  • Agua<br />
-                  • Corriente<br />
-                  • Internet<br />
-                  • Electricidad<br />
-                  • Teléfono<br />
-                  • Cable
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="data this-style">
-                  • Alarma<br />
-                  • Calefacción<br />
-                  • Seguridad<br />
-                  • Apto mascotas<br />
-                  • Quincho<br />
-                  • Aire Ac.<br />
-                </div>
-              </div>
+          </div>
+          <div class="col-6">
+            <div class="data this-style">
+              • Alarma<br />
+              • Calefacción<br />
+              • Seguridad<br />
+              • Apto mascotas<br />
+              • Quincho<br />
+              • Aire Ac.<br />
             </div>
           </div>
         </div>
       </div>
+
+        </div>
+      </div>
+
       <div class="alocation">
         <div class="location">UBICADA EN:</div>
         <img class="map" src="Imagenes/Mapa.svg" alt="Mapa" />
@@ -239,7 +246,24 @@
       <div class="copyright">INMOBILIARIA PROPIEDADES 2021</div>
     </footer>
 
+    <script src="glide-3.4.1/dist/glide.min.js"></script>
+
+    <script>
+      new Glide(".glide", {
+        type: "carousel",
+        perView: 4,
+        focusAt: 0,
+        breakpoints: {
+          800: {
+            perView: 2,
+          },
+          480: {
+            perView: 1,
+          },
+        },
+      }).mount();
+    </script>
     <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
-    <script src='/houseDetail.js'></script>
+    <script src="/houseDetail.js"></script>
   </body>
 </html>

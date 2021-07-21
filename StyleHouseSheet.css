@@ -409,8 +409,10 @@ Footer {
   }
 
   .hero-image {
-    width: 90%;
-    height: 90%;
+    float: left;
+    width:  400px;
+    height: 400px;
+    object-fit: cover;
     margin-left: 5px;
     align-items: center;
     align-content: center;
@@ -418,11 +420,7 @@ Footer {
     margin-left: 42px;
     position: relative;
   }
-  .carrousel-images {
-    width: auto;
-    height: 125px;
-  }
-
+  
   .basic-info {
     margin-top: 90px;
     font-size: 18px;
