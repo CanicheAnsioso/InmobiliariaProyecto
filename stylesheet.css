@@ -26,7 +26,7 @@ nav {
   text-decoration: none;
 }
 
-.Texto-Logo {
+.text-logo {
   font-family: "Ropa Sans", sans-serif;
   color: #6a578d;
   font-style: normal;
@@ -60,19 +60,19 @@ nav {
   text-decoration: none;
 }
 
-.HERO {
+.hero {
   width: 100%;
   height: 1085.9px;
 }
 
-.HEROIMG {
+.hero-img {
   background-image: url(Imagenes/Hero.svg);
   background-position: center right;
   background-size: 1646px 1085.9px;
   background-repeat: no-repeat;
 }
 
-.Hero-Text {
+.hero-text {
   width: 573px;
   height: 428px;
   padding-top: 270px;
@@ -82,7 +82,7 @@ nav {
   font-style: normal;
 }
 
-.Main-Text {
+.main-text {
   font-weight: 600;
   font-size: 65px;
   line-height: 110.7%;
@@ -93,7 +93,7 @@ nav {
   color: #d6bfff;
 }
 
-.Sub-Text {
+.sub-text {
   font-weight: normal;
   font-size: 22px;
   line-height: 110.7%;
@@ -102,7 +102,7 @@ nav {
   margin-top: 30px;
 }
 
-.INTERLUDIO {
+.interlude {
   font-family: "Poppins", sans-serif;
   color: #b7a0e1;
   font-style: normal;
@@ -115,33 +115,33 @@ nav {
   align-items: center;
 }
 
-.Telefonos {
+.telephones {
   font-size: 27px;
   line-height: 114.2%;
 }
 
-.Redes {
+.text-social {
   font-size: 27px;
   line-height: 114.2%;
 }
 
-.RedesSvg {
+.socials-svg {
   margin-left: 15px;
   width: 170px;
   height: 40px;
 }
 
-.filadecasas div {
+.row-houses div {
   padding: 0;
   margin: 0;
 }
 
-.casas {
+.house {
   width: 100%;
   height: 951px;
 }
 
-.casona {
+.big-house {
   width: 100%;
   height: 1497px;
   cursor: pointer;
@@ -154,7 +154,7 @@ Footer {
   font-family: "Poppins", sans-serif;
 }
 
-.LogoInmobiliaria {
+.logo-inmb {
   color: #b7a0e1;
   display: flex;
   flex-direction: column;
@@ -170,7 +170,7 @@ Footer {
   letter-spacing: 0.115em;
 }
 
-.DatosdeContacto {
+.contact-data {
   color: #b7a0e1;
   display: flex;
   flex-direction: column;
@@ -184,7 +184,7 @@ Footer {
   letter-spacing: 0.8px;
 }
 
-.Disclaimer {
+.disclaimer {
   color: #f1eafe;
   display: flex;
   flex-direction: column;
@@ -199,7 +199,7 @@ Footer {
   letter-spacing: 0.115em;
 }
 
-.Medio {
+.middle-selector {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -210,11 +210,11 @@ Footer {
   padding-top: 24px;
 }
 
-.Medio-links li a {
+.middle-links li a {
   color: #b7a0e1;
 }
 
-.Follow {
+.follow-text {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -224,19 +224,19 @@ Footer {
   padding-top: 55px;
 }
 
-.RedesSociales {
+.socials-net {
   margin-left: 15px;
   width: 140px;
   height: 30px;
 }
 
-.LineaDivisoria {
+.div-line {
   margin-left: 30px;
   margin-right: 30px;
   border: 1px solid #f1eafe;
 }
 
-.Copyright {
+.copyright {
   margin-left: 45px;
   font-family: "Ropa Sans";
   font-style: normal;
@@ -265,7 +265,7 @@ Footer {
     width: 169px;
     height: 20px;
   }
-  .Texto-Logo {
+  .text-logo {
     font-size: 25px;
     text-align: center;
   }
@@ -283,23 +283,23 @@ Footer {
     letter-spacing: 0.05em;
     text-align: center;
   }
-  .HERO {
+  .hero {
     width: 100%;
     height: 800px;
   }
-  .HEROIMG {
+  .hero-img {
     background-position: center;
     background-size: 100%, 760px;
     background-image: url(Imagenes/Herophone.svg);
   }
-  .Hero-Text {
+  .hero-text {
     width: 700px;
     height: 524px;
     padding-left: 140px;
     padding-right: 140px;
     text-align: center;
   }
-  .Main-Text {
+  .main-text {
     font-size: 40px;
     line-height: 110.7%;
     letter-spacing: 0.11em;
@@ -312,7 +312,7 @@ Footer {
     color: #683db4;
   }
 
-  .Sub-Text {
+  .sub-text {
     font-size: 25px;
     line-height: 110.7%;
     text-align: center;
@@ -321,7 +321,7 @@ Footer {
     padding-top: 45px;
   }
 
-  .INTERLUDIO {
+  .interlude {
     height: 139px;
     display: flex;
     flex-direction: column;
@@ -329,7 +329,7 @@ Footer {
     align-items: center;
   }
 
-  .Telefonos {
+  .telephones {
     width: 99.8%;
     font-size: 18px;
     line-height: 114.2%;
@@ -338,14 +338,14 @@ Footer {
     padding-left: 2px;
   }
 
-  .Redes {
+  .text-social {
     width: 100%;
     font-size: 18px;
     line-height: 114.2%;
     text-align: center;
   }
 
-  .RedesSvg {
+  .socials-svg {
     width: 133.86px;
     height: 28px;
   }
@@ -354,26 +354,26 @@ Footer {
     width: 100%;
   }
 
-  .LogoInmobiliaria {
+  .logo-inmb {
     padding-left: 5px;
     padding-top: 5px;
   }
 
-  .DatosdeContacto {
+  .contact-data {
     font-size: 7px;
     line-height: 114.2%;
     padding-left: 5px;
     padding-top: 5px;
   }
 
-  .Follow {
+  .follow-text {
     font-size: 9px;
     line-height: 114.2%;
     padding-left: 5px;
     text-align: center;
   }
 
-  .Disclaimer {
+  .disclaimer {
     padding-left: 5px;
     padding-top: 10px;
     font-size: 10px;
@@ -381,18 +381,18 @@ Footer {
     padding-left: 2.5px;
   }
 
-  .Medio {
+  .middle-selector {
     font-size: 11px;
     line-height: 98.5%;
     padding-top: 14px;
     letter-spacing: 0.2em;
   }
 
-  .LineaDivisoria {
+  .div-line {
     width: 90%;
   }
 
-  .Copyright {
+  .copyright {
     margin-left: 5px;
     font-size: 7px;
     line-height: 110.7%;
@@ -418,7 +418,7 @@ Footer {
     width: 118px;
     height: 20px;
   }
-  .Texto-Logo {
+  .text-logo {
     font-size: 22px;
     text-align: center;
   }
@@ -435,24 +435,24 @@ Footer {
     letter-spacing: 0.05em;
     text-align: center;
   }
-  .HERO {
+  .hero {
     width: 100%;
     height: 793px;
   }
-  .HEROIMG {
+  .hero-img {
     background-position: center;
     background-size: 1646px 793px;
     background-image: url(Imagenes/Herophone.svg);
   }
 
-  .Hero-Text {
+  .hero-text {
     width: 400px;
     height: 468px;
     padding-left: 45px;
     padding-right: 30px;
     text-align: center;
   }
-  .Main-Text {
+  .main-text {
     font-size: 32px;
     line-height: 110.7%;
     letter-spacing: 0.11em;
@@ -465,7 +465,7 @@ Footer {
     color: #683db4;
   }
 
-  .Sub-Text {
+  .sub-text {
     font-size: 22px;
     line-height: 110.7%;
     text-align: center;
@@ -475,7 +475,7 @@ Footer {
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.64);
   }
 
-  .INTERLUDIO {
+  .interlude {
     height: 139px;
     display: flex;
     flex-direction: column;
@@ -483,7 +483,7 @@ Footer {
     align-items: center;
   }
 
-  .Telefonos {
+  .telephones {
     width: 99.8%;
     font-size: 15px;
     line-height: 114.2%;
@@ -492,14 +492,14 @@ Footer {
     padding-left: 2px;
   }
 
-  .Redes {
+  .text-social {
     width: 100%;
     font-size: 15px;
     line-height: 114.2%;
     text-align: center;
   }
 
-  .RedesSvg {
+  .socials-svg {
     width: 118px;
     height: 27px;
   }
@@ -509,26 +509,26 @@ Footer {
     width: 100%;
   }
 
-  .LogoInmobiliaria {
+  .logo-inmb {
     padding-left: 5px;
     padding-top: 5px;
   }
 
-  .DatosdeContacto {
+  .contact-data {
     font-size: 13px;
     line-height: 114.2%;
     padding-left: 5px;
     padding-top: 5px;
   }
 
-  .Follow {
+  .follow-text {
     font-size: 17px;
     line-height: 114.2%;
     padding-left: 5px;
     text-align: center;
   }
 
-  .Disclaimer {
+  .disclaimer {
     padding-left: 5px;
     padding-top: 10px;
     font-size: 10px;
@@ -536,18 +536,18 @@ Footer {
     padding-left: 2.5px;
   }
 
-  .Medio {
+  .middle-selector {
     font-size: 14px;
     line-height: 135.5%;
     padding-top: 14px;
     letter-spacing: 0.3em;
   }
 
-  .LineaDivisoria {
+  .div-line {
     width: 90%;
   }
 
-  .Copyright {
+  .copyright {
     margin-left: 5px;
     font-size: 7px;
     line-height: 110.7%;
