@@ -21,10 +21,10 @@
         <a class="logo-decoration" href="index.html"><h3 class="text-logo">INMOBILIARIA</h3></a>
       </div>
       <ul class="nav-links">
-        <li><a href="#">PROPIEDADES</a></li>
-        <li><a href="#">TASACIONES</a></li>
-        <li><a href="#">NOSOTROS</a></li>
-        <li><a href="#">CONTACTO</a></li>
+        <li class="hover-underline-animation"><a href="filterpage.html">PROPIEDADES</a></li>
+        <li class="hover-underline-animation"><a href="#">TASACIONES</a></li>
+        <li class="hover-underline-animation"><a href="#">NOSOTROS</a></li>
+        <li class="hover-underline-animation"><a href="#">CONTACTO</a></li>
       </ul>
     </nav>
 
@@ -35,13 +35,21 @@
             LA CASA DE TUS SUEÑOS ESTÁ CON
             <div class="this-word">NOSOTROS</div>
           </h2>
-          <h3 class="sub-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et
-            dolore magna aliqua
-          </h3>
+          <h3 class="sub-text">¿Qué estás buscando?</h3>
+        </div>
+        <div class="container-fluid">
+          <div class="row select-option">
+            <a class="col-4 selector-img" href="filterpage.html"><img  id='selectorAlquiler' src="Imagenes/Alquiler.svg" alt="Alquiler" /></a>
+            <a class="col-4 selector-img" href="filterpage.html"><img  id='selectorVenta' src="Imagenes/Venta.svg" alt="Venta" /></a>
+            <a class="col-4 selector-img" href="#"><img  id='selectorTasacion' src="Imagenes/Tasacion.svg" alt="Tasacion" /></a>
+          </div>
+          <div class="row text-selector-space animate__animated animate__fadeInDown">
+            <div class="col-sm-4 text-selector" id="textSelectorAlq">Alquiler</div>
+            <div class="col-sm-4 text-selector" id="textSelectorVen">Ventas</div>
+            <div class="col-sm-4 text-selector" id="textSelectorTas">Tasaciones</div>
+          </div>
         </div>
       </div>
-
       <div class="interlude animate__animated animate__fadeIn animate__slow">
         <div class="telephones">
           COMUNICATE CON ALGUNO DE NUESTROS ASESORES AL: #1111111-11111 / 1111333333333
@@ -166,15 +174,15 @@
               <div class="image-container">
                 <img class="big-house" src="Imagenes/Casa8.jpg" alt="Casa" />
                 <div class="overlay-layer">
-					<span class="text-overlay"
-					  >Casa 5 ambientes
-					  <div class="subtext-layer">(venta o alquiler)</div>
-					  <br />$1.111.111</span
-					>
-					<button class="overlay-button">
-					  <a class="link-button" href="/HouseIndex.html">Ver más</a>
-					</button>
-				  </div>
+                  <span class="text-overlay"
+                    >Casa 5 ambientes
+                    <div class="subtext-layer">(venta o alquiler)</div>
+                    <br />$1.111.111</span
+                  >
+                  <button class="overlay-button">
+                    <a class="link-button" href="/HouseIndex.html">Ver más</a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -283,5 +291,6 @@
     </footer>
 
     <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

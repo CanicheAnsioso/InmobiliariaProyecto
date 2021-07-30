@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylefilterpage.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ropa+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>HOMEPAGE</title>
+  </head>
+
+  <body>
+    <nav class="animate__animated animate__fadeInDown animate__slow">
+      <div class="logo">
+        <a class="logo-decoration" href="index.html"><h3 class="text-logo">INMOBILIARIA</h3></a>
+      </div>
+      <ul class="nav-links">
+        <li class="hover-underline-animation"><a href="#">PROPIEDADES</a></li>
+        <li class="hover-underline-animation"><a href="#">TASACIONES</a></li>
+        <li class="hover-underline-animation"><a href="#">NOSOTROS</a></li>
+        <li class="hover-underline-animation"><a href="#">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="banner">
+        <div class="text-banner">
+          PROPIEDADES
+          <div class="sub-text-banner">
+            Aquí vas a poder encontrar y filtrar de diversas maneras las propiedades que tenemos en el mercado
+            para vos
+          </div>
+        </div>
+      </div>
+
+      <div class="filters">
+        <div class="tittle-filter">Realiza tu búsqueda</div>
+
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-2 pl-2">
+              <form>
+                <select
+                  class="my-3 long-column"
+                  name="transaction-type"
+                  id="transaction-type"
+                  form="transaction-type"
+                >
+                  <option disabled selected>Tipo de transacción</option>
+                  <option value="venta">Venta</option>
+                  <option value="alquiler">Alquiler</option>
+                  <option value="alquilertemporario">Alquiler temporario</option>
+                  <br />
+                </select>
+
+                <select class="long-column" name="property-type" id="property-type" form="property-type">
+                  <option disabled selected>Tipo de propiedad</option>
+                  <option value="casa">Casa</option>
+                  <option value="departamento">Departamento</option>
+                  <option value="chalet">Chalet</option>
+                  <option value="local">Local</option>
+                  <option value="terreno">Terreno</option>
+                  <option value="negocio">Negocio</option>
+                  <option value="fondodecomercio">Fondo de comercio</option>
+                  <br />
+                </select>
+              </form>
+            </div>
+
+            <div class="col-2 pl-2">
+              <form>
+                <select class="my-3 long-column" type="selector" id="city" name="city">
+                  <br />
+                  <option disabled selected>Ciudad</option>
+                  <option value="mardelplata">Mar del Plata</option>
+                  <option value="santateresita">Santa Teresita</option>
+                  <br />
+                </select>
+                <input class="ref-number" type="number" name="refnumber" placeholder="Número de referencia" />
+              </form>
+            </div>
+            <div class="col-1 mx-2">
+              <select class="my-3 short-column" name="ambientes" id="ambientes" form="ambientes">
+                <option disabled selected>Ambientes</option>
+                <option value="1">1 amb</option>
+                <option value="2">2 amb</option>
+                <option value="3">3 amb</option>
+                <option value="4">4 amb</option>
+                <br />
+              </select>
+              <select class="short-column" name="dorms" id="dorms" form="dorms">
+                <option disabled selected>Dormitorios</option>
+                <option value="1">1 dormitorio</option>
+                <option value="2">2 dormitorios</option>
+                <option value="3">3 dormitorios</option>
+                <br />
+              </select>
+            </div>
+
+            <div class="col-1 mx-2">
+              <select class="my-3 short-column" name="parkinglot" id="parkinglot" form="parkinglot">
+                <option disabled selected>Cochera</option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+                <br />
+              </select>
+
+              <select class="short-column" name="bathrooms" id="bathrooms" form="bathrooms">
+                <option disabled selected>Baños</option>
+                <option value="1">1 baño</option>
+                <option value="2">2 baños</option>
+                <option value="3">3 baños</option>
+                <br />
+              </select>
+            </div>
+
+            <div class="col-1 mx-2">
+              <select class="my-3 short-column" name="coin" id="coin" form="coin">
+                <option disabled selected>Moneda</option>
+                <option value="dolares">Dólares</option>
+                <option value="pesoargentino">Pesos argentinos</option>
+                <br />
+              </select>
+
+              <input class="from-to" type="number" name="from" placeholder="Desde" />
+            </div>
+
+            <div class="col-1 mx-2">
+              <select class="my-3 short-column" name="credit" id="credit" form="credit">
+                <option disabled selected>Apto crédito</option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+                <br />
+              </select>
+              <input class="from-to" type="number" name="to" placeholder="Hasta" />
+            </div>
+            <div class="col-2">
+              <button>BUSCAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- <footer class="container-fluid m-0 animate__animated animate__fadeIn animate__slow">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="logo-inmb">INMOBILIARIA</div>
+            <div class="contact-data">
+              CONTACTO: #1111111-11111 / 1111333333333<br />Av. Blablabla 754<br />info@inmobiliaria.com.ar
+              <br />
+            </div>
+            <div class="disclaimer">
+              Todas las medidas enunciadas son meramente orientativas, las medidas exactas serán las que se
+              expresen en el respectivo título de propiedad de cada inmueble.<br />Todas las fotos, imagenes y
+              videos son meramente ilustrativos y no contractuales. Los precios enunciados son meramente
+              orientativos y no contractuales..
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="middle-selector">
+              ¿Qué estás buscando?
+              <ul class="middle-links">
+                <li><a href="#">Terrenos</a></li>
+                <li><a href="#">Departamentos</a></li>
+                <li><a href="#">Casas</a></li>
+                <li><a href="#">Oficinas</a></li>
+                <li><a href="#">Locales</a></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-3">
+            <div class="follow-text">
+              Seguinos en <img class="socials-net" src="Imagenes/Redes2.svg" alt="RedesSociales" />
+            </div>
+          </div>
+        </div>
+        <hr class="div-line" />
+        <div class="copyright">INMOBILIARIA PROPIEDADES 2021</div>
+      </footer> -->
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+  </body>
+</html>
