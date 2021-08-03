@@ -32,7 +32,7 @@ nav {
   color: #6a578d;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: clamp (1.0625em, 1.5em, 1.875em);
   line-height: 33px;
   letter-spacing: 0.115em;
   text-decoration: none;
@@ -54,7 +54,7 @@ nav {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: clamp (0.75em, 1.1em, 1.375em);
   line-height: 110.7%;
   letter-spacing: 0.035em;
   color: #6a578d;
@@ -95,7 +95,7 @@ nav {
 .text-banner {
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: clamp(1.125em, 2em, 3em);
   line-height: 110.7%;
   text-align: center;
   color: #ffffff;
@@ -103,7 +103,7 @@ nav {
 .sub-text-banner {
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: clamp(0.4em, 0.8125em, 1.333em);
   line-height: 110.7%;
   text-align: center;
   color: #ffffff;
@@ -113,20 +113,18 @@ nav {
   width: 100%;
   height: 16.25em;
   background-color: #6a578d !important;
-  
 }
 
 .tittle-filter {
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: clamp (1.65em, 2.25em);
   line-height: 110.7%;
   text-align: center;
   color: #ffffff;
   padding-top: 5px;
   padding-bottom: 16px;
 }
-
 
 .long-column {
   width: 300px;
@@ -137,10 +135,10 @@ nav {
   border-radius: 19px;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: clamp(0.75em, 1em, 1.125em);
   line-height: 110.7%;
   color: #6a578d;
-  text-align-last:center;
+  text-align-last: center;
 }
 
 .ref-number {
@@ -153,7 +151,7 @@ nav {
   text-align: center;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: clamp(0.75em, 1em, 1.125em);
   line-height: 110.7%;
   color: #6a578d;
 }
@@ -167,10 +165,10 @@ nav {
   border-radius: 19px;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: clamp(0.75em, 1em, 1.125em);
   line-height: 110.7%;
   color: #6a578d;
-  text-align-last:center;
+  text-align-last: center;
 }
 
 .from-to {
@@ -183,21 +181,20 @@ nav {
   text-align: center;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: clamp(0.75em, 1em, 1.125em);
   line-height: 110.7%;
   color: #6a578d;
   box-shadow: none;
 }
-.style-option{
+.style-option {
   width: 100%;
   border-radius: 19px;
   border-color: transparent;
   border-style: none;
   font-weight: 600;
-  font-size: 18px;
+  font-size: clamp(0.75em, 1em, 1.125em);
   line-height: 110.7%;
   color: #6a578d;
-
 }
 
 .button {
@@ -210,7 +207,7 @@ nav {
   text-align: center;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: clamp(0.75em, 1em, 1.125em);
   line-height: 110.7%;
   color: #6a578d;
   cursor: pointer;
@@ -229,12 +226,12 @@ nav {
 }
 
 .telephones {
-  font-size: 27px;
+  font-size: clamp(0.9375em, 1.3em, 1.6875em);
   line-height: 114.2%;
 }
 
 .text-social {
-  font-size: 27px;
+  font-size: clamp(0.9375em, 1.3em, 1.6875em);
   line-height: 114.2%;
 }
 
@@ -256,7 +253,7 @@ nav {
 .type-of-view {
   font-style: normal;
   font-weight: 600;
-  font-size: 26px;
+  font-size: clamp(0.9375em, 1.3em, 1.625em);
   line-height: 110.7%;
   color: #e73f9a;
   width: 100%;
@@ -275,12 +272,12 @@ nav {
   border-radius: 19px;
   border-color: transparent;
   font-weight: 600;
-  font-size: 18px;
+  font-size: clamp(0.75em, 1em, 1.125em);
   line-height: 110.7%;
   color: #6a578d;
   margin-left: 2em;
   cursor: pointer;
-  text-align-last:center;
+  text-align-last: center;
 }
 
 .selector-visual {
@@ -291,19 +288,17 @@ nav {
   width: 1.5em;
   margin-left: 2em;
   cursor: pointer;
-  
 }
-.selector-style{
+.selector-style {
   width: 100%;
   background: linear-gradient(0deg, #ffe2e2, #ffe2e2), #ffffff !important;
   border-radius: 18px;
   border-color: transparent;
   border-style: none;
   font-weight: 600;
-  font-size: 18px;
+  font-size: clamp(0.75em, 1em, 1.125em);
   line-height: 110.7%;
   color: #6a578d;
-
 }
 
 .full-box {
@@ -336,7 +331,7 @@ nav {
 .price {
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: clamp(1.375em, 1.9em, 2.5em);
   line-height: 110.7%;
   text-align: center;
   color: #e73f9a;
@@ -345,7 +340,7 @@ nav {
 .type-of-sale {
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: clamp(1.25em, 1.3em, 1.375em);
   line-height: 110.7%;
   text-align: center;
   color: #7d66a6;
@@ -363,7 +358,7 @@ nav {
   padding-top: 0.4em;
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: clamp(1em, 1.25em, 1.5625em);
   line-height: 110.7%;
   color: #b7a0e1;
   text-align: center;
@@ -372,7 +367,7 @@ nav {
 .credit {
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: clamp(1em, 1.12em, 1.25em);
   line-height: 110.7%;
   color: #b7a0e1;
   text-align: center;
@@ -383,7 +378,7 @@ nav {
 .small-text {
   font-style: normal;
   font-weight: 600;
-  font-size: 19px;
+  font-size: clamp(0.875em, 1em, 1.1875em);
   line-height: 110.7%;
   color: #b7a0e1;
   text-align: left;
@@ -394,7 +389,7 @@ nav {
 .amb-mts {
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: clamp(0.9375em, 1.1em, 1.375em);
   line-height: 110.7%;
   text-align: center;
   color: #6a578d;
@@ -417,7 +412,7 @@ nav {
 .view-more-text {
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: clamp(0.8125em, 1.1em, 1.25em);
   line-height: 110.7%;
   color: #6a578d;
   text-align: center;
@@ -427,12 +422,11 @@ nav {
 .showing-text {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: clamp(0.56em, 0.875em);
   line-height: 110.7%;
   color: #000000;
   margin-left: 7.8em;
   padding: 15em 0 15em 0;
-
 }
 Footer {
   width: 100%;
@@ -452,7 +446,7 @@ Footer {
   font-family: "Ropa Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 35px;
+  font-size: clamp(0.9375em, 1.5em, 2.1875em);
   line-height: 110.7%;
   letter-spacing: 0.115em;
 }
@@ -465,7 +459,7 @@ Footer {
   top: 4950px;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: clamp(0.4375em, 0.6em, 0.75em);
   line-height: 20px;
   padding-left: 45px;
   letter-spacing: 0.8px;
@@ -490,7 +484,7 @@ Footer {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
+  font-size: clamp(0.625em, 0.85em, 1.0625em);
   line-height: 23px;
   letter-spacing: 0.21em;
   color: #f1eafe;
@@ -505,7 +499,7 @@ Footer {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: clamp(0.5625em, 1em, 1.5em);
   line-height: 27px;
   color: #b7a0e1;
   padding-top: 55px;
@@ -529,10 +523,8 @@ Footer {
   font-family: "Ropa Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 7px;
+  font-size: 0.4375em;
   line-height: 110.7%;
-
   letter-spacing: 0.115em;
-
   color: #f1eafe;
 }
