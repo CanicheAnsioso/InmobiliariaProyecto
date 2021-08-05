@@ -42,7 +42,7 @@ nav {
   display: flex;
   justify-content: space-around;
   width: 50%;
-  padding-right: 5%;
+  gap: 2em;
   margin: 0;
 }
 
@@ -118,7 +118,7 @@ nav {
 .tittle-filter {
   font-style: normal;
   font-weight: 600;
-  font-size: clamp (1.65em, 2.25em);
+  font-size: 2em;
   line-height: 110.7%;
   text-align: center;
   color: #ffffff;
@@ -139,6 +139,7 @@ nav {
   line-height: 110.7%;
   color: #6a578d;
   text-align-last: center;
+    
 }
 
 .ref-number {
@@ -212,6 +213,7 @@ nav {
   color: #6a578d;
   cursor: pointer;
 }
+
 .interlude {
   font-family: "Poppins", sans-serif;
   color: #b7a0e1;
