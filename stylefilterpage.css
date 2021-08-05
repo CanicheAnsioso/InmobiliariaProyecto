@@ -111,7 +111,7 @@ nav {
 
 .filters {
   width: 100%;
-  height: 16.25em;
+  height: 'fit-content';
   background-color: #6a578d !important;
 }
 
