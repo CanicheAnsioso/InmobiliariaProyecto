@@ -219,12 +219,15 @@ nav {
   color: #b7a0e1;
   font-style: normal;
   font-weight: 600;
-  height: 109px;
+  height: fit-content;
   background: #f9f5ff;
+  margin-top: 0.7em; 
+  margin-bottom: 0.7em;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  gap: 2em;
   align-items: center;
+  text-align: center;
 }
 
 .telephones {
@@ -239,15 +242,17 @@ nav {
 
 .socials-svg {
   margin-left: 15px;
-  width: 170px;
-  height: 40px;
+  width: 30%;
+  height: 30%;
   cursor: pointer;
 }
 
 .parameters {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 1em;
   margin: 1em 7.8em 1em 6.7em;
   align-items: center;
 }
@@ -261,6 +266,7 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
 }
 .viewer {
@@ -307,19 +313,23 @@ nav {
   padding-top: 2em;
   margin: auto;
   width: 70%;
+  height: 100%;
   padding-bottom: 3em;
+  gap: 2em;
 }
 
 .house {
   width: 100%;
-  height: 900px;
+  height: 60%;
   align-self: center;
 }
 
 .box-card {
   background: #f1eafe;
   border-radius: 0px 0px 73px 73px;
-  height: 310px;
+  height: fit-content;
+  
+
 }
 
 .important-data,
@@ -328,7 +338,34 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
+  
 }
+
+@media only screen and (max-width:760px){
+  .important-data,
+.second-data
+{
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  
+}
+.type-of-sale,.credit{
+  padding: 0;
+  
+}
+.adress{
+  padding: 0.2em 1em 0.2em 1em;
+}
+
+.small-text{
+  padding-top: 0.5em;
+}
+
+}
+
 
 .price {
   font-style: normal;
@@ -351,10 +388,9 @@ nav {
 }
 
 .pointer {
-  height: 2.2em;
-  width: 2.2em;
-  padding-left: 1.5em;
-}
+  height: 1.5em;
+  width: 1.5em;
+ }
 
 .adress {
   padding-top: 0.4em;
@@ -364,6 +400,8 @@ nav {
   line-height: 110.7%;
   color: #b7a0e1;
   text-align: center;
+  padding-left: 1.4em;
+  padding-bottom: 0.5em;
 }
 
 .credit {
@@ -400,8 +438,10 @@ nav {
 .view-more-but {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   padding-top: 1em;
+  padding-bottom: 1em;
 }
 .view-button {
   width: 121px;
