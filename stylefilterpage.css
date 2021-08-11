@@ -260,12 +260,9 @@ nav {
 
 .first-parameter{
   width: 50%;
-
 }
 .second-parameter {
   width: 50%;
-
-
 }
 
 
@@ -275,7 +272,7 @@ nav {
   font-size: clamp(0.9375em, 1.3em, 1.625em);
   line-height: 110.7%;
   color: #e73f9a;
-    display: flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;

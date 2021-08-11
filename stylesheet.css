@@ -436,6 +436,7 @@ Footer {
     padding-top: 45px;
   }
 
+  
   .interlude {
     height: 139px;
     display: flex;
@@ -587,7 +588,34 @@ Footer {
     letter-spacing: -0.07em;
     color: #ffffff;
     padding-top: 45px;
+    padding-left: 30px;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.64);
+  }
+  .select-option {
+    height: 70%;
+    width: 70%;
+    position: relative;
+    top: 15em;
+    left: 2.5em;
+    cursor: pointer;
+  }
+  
+  .text-selector-space {
+    width: 25%;
+    position: relative;
+    top: 16.5em;
+    left: 2.5em;
+    
+  }
+  
+  .text-selector {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110.7%;
+    color: #b7a0e1;
+    text-align: center;
+    visibility: hidden;
   }
 
   .interlude {
