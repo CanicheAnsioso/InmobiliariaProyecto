@@ -219,10 +219,10 @@ nav {
   color: #b7a0e1;
   font-style: normal;
   font-weight: 600;
-  height: fit-content;
-  background: #f9f5ff;
-  margin-top: 0.7em; 
-  margin-bottom: 0.7em;
+  height: max-content;
+  background: #f8f5fc;
+  padding-top: 0.7em; 
+  padding-bottom: 0.7em;
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -255,7 +255,19 @@ nav {
   gap: 1em;
   margin: 1em 7.8em 1em 6.7em;
   align-items: center;
+
 }
+
+.first-parameter{
+  width: 50%;
+
+}
+.second-parameter {
+  width: 50%;
+
+
+}
+
 
 .type-of-view {
   font-style: normal;
@@ -263,15 +275,16 @@ nav {
   font-size: clamp(0.9375em, 1.3em, 1.625em);
   line-height: 110.7%;
   color: #e73f9a;
-  width: 100%;
-  display: flex;
+    display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  flex-grow: 0.5;
+ 
 }
 .viewer {
   justify-content: flex-end;
-}
+  }
 
 .visual-selector {
   height: 52.82px;
